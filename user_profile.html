@@ -9,38 +9,46 @@
 
 <body>
     <div class="container">
-        <h1>Пользователь</h1>
-        <form action="/">
-            <label for="name">Логин:</label> 
-            <input type="text" id="name" placeholder="e-mail">
-            <label for="password">Пароль:</label> 
-            <input type="password" id="password">
-            <input type="submit" value="Войти">
-            
-        </form>
-
-        <form action="/">
-            <p>Пользователь: Нижний Новгород 7 Небо     
-            <input type="submit" value="Выйти"></p>
-        </form>
-        <p>Роль: магазин</p>
-        <p>Статус: активный</p>
+        <h1>Заявки на уценку</h1>
+        <div class="autorisation">
+            <div class="autorisation-login">
+                <!-- <form action="/">
+                    <label for="name">Логин:</label>
+                    <input type="text" id="name" placeholder="e-mail">
+                    <label for="password">Пароль:</label>
+                    <input class="pass" type="password" id="password">
+                    <input type="submit" value="Войти">
+                </form> -->
+                <form action="/">
+                    Пользователь: Нижний Новгород 7 Небо
+                    <input type="submit" value="Выйти">                    
+                </form>    
+            </div>
+            <div class="autorisation-about">
+                Роль: магазин
+                <br>
+                Статус: активный
+            </div>
+        </div>
 
         <hr />
 
-        <form action="/">
-            <label for="email">E-mail: </label> 
-            <input type="email" id="email" value="nnovgorod@gamepark.ru">
-            <input type="submit" value="Сохранить">
-        </form>
+        <div class="email">
+            <form class="form-email" action="/">
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" value="nnovgorod@gamepark.ru">
+                <input class="btn" type="submit" value="Сохранить">
+            </form>
+        </div>
 
         <br>
-        <a href=""> Создать новую заявку</a>
+        <a class="link-new-application" href=""> Создать новую заявку</a>
+        <!-- <input class="btn-new-application" type="submit" value="Создать новую заявку"> -->
 
         
 
         <h2>Заявки на рассмотрении (5):</h2>
-        <table border="1"> 
+        <table> 
             <tr>
                 <th>Дата</th>
                 <th>Номер заявки</th>
@@ -70,7 +78,7 @@
         <a href=""> Остальные ...</a>
 
         <h2>Одобренные заявки (7):</h2>
-        <table border="1"> 
+        <table > 
             <tr>
                 <th>Дата</th>
                 <th>Номер заявки</th>
@@ -100,7 +108,7 @@
         <a href=""> Остальные ...</a>
 
         <h2>Архивные заявки (45):</h2>
-        <table border="1"> 
+        <table > 
             <tr>
                 <th>Дата</th>
                 <th>Номер заявки</th>
