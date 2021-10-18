@@ -8,129 +8,130 @@
 
 
 <body>
-    <h1>Пользователь</h1>
-    <form action="/">
-        <label for="name">Логин:</label> 
-        <input type="text" id="name" placeholder="e-mail">
-        <label for="password">Пароль:</label> 
-        <input type="password" id="password">
-        <input type="submit" value="Войти">
+    <div class="container">
+        <h1>Пользователь</h1>
+        <form action="/">
+            <label for="name">Логин:</label> 
+            <input type="text" id="name" placeholder="e-mail">
+            <label for="password">Пароль:</label> 
+            <input type="password" id="password">
+            <input type="submit" value="Войти">
+            
+        </form>
+
+        <form action="/">
+            <p>Пользователь: Нижний Новгород 7 Небо     
+            <input type="submit" value="Выйти"></p>
+        </form>
+        <p>Роль: магазин</p>
+        <p>Статус: активный</p>
+
+        <hr />
+
+        <form action="/">
+            <label for="email">E-mail: </label> 
+            <input type="email" id="email" value="nnovgorod@gamepark.ru">
+            <input type="submit" value="Сохранить">
+        </form>
+
+        <br>
+        <a href=""> Создать новую заявку</a>
+
         
-    </form>
 
-    <form action="/">
-        <p>Пользователь: Нижний Новгород 7 Небо     
-        <input type="submit" value="Выйти"></p>
-    </form>
-    <p>Роль: магазин</p>
-    <p>Статус: активный</p>
+        <h2>Заявки на рассмотрении (5):</h2>
+        <table border="1"> 
+            <tr>
+                <th>Дата</th>
+                <th>Номер заявки</th>
+                <th>Номенклатура</th>
+                <th>Ссылка</th>
+            </tr>
+            <tr>
+                <td>01.09.2021</td>
+                <td>Заявка №002</td>  
+                <td>Комикс Супермен против бетмена</td>   
+                <td><a href="">Открыть...</a></td>  
+            </tr>    
+            <tr>
+                <td>01.09.2021</td>
+                <td>Заявка №003</td>  
+                <td>Геймпад PS4</td>   
+                <td><a href="">Открыть...</a></td>  
+            </tr>   
+            <tr>
+                <td>01.09.2021</td>
+                <td>Заявка №005</td>  
+                <td>Журнал Мир фантастики 154</td>   
+                <td><a href="">Открыть...</a></td>  
+            </tr>      
+            
+        </table>
+        <a href=""> Остальные ...</a>
 
-    <hr />
+        <h2>Одобренные заявки (7):</h2>
+        <table border="1"> 
+            <tr>
+                <th>Дата</th>
+                <th>Номер заявки</th>
+                <th>Номенклатура</th>
+                <th>Ссылка</th>
+            </tr>
+            <tr>
+                <td>01.09.2021</td>
+                <td>Заявка №002</td>  
+                <td>Комикс Супермен против бетмена</td>   
+                <td><a href="">Открыть...</a></td>  
+            </tr>    
+            <tr>
+                <td>01.09.2021</td>
+                <td>Заявка №003</td>  
+                <td>Геймпад PS4</td>   
+                <td><a href="">Открыть...</a></td>  
+            </tr>   
+            <tr>
+                <td>01.09.2021</td>
+                <td>Заявка №005</td>  
+                <td>Журнал Мир фантастики 154</td>   
+                <td><a href="">Открыть...</a></td>  
+            </tr>      
+            
+        </table>
+        <a href=""> Остальные ...</a>
 
-    <form action="/">
-        <label for="email">E-mail: </label> 
-        <input type="email" id="email" value="nnovgorod@gamepark.ru">
-        <input type="submit" value="Сохранить">
-    </form>
-
-    <br>
-    <a href=""> Создать новую заявку</a>
-
-    
-
-    <h2>Заявки на рассмотрении (5):</h2>
-    <table border="1"> 
-        <tr>
-            <th>Дата</th>
-            <th>Номер заявки</th>
-            <th>Номенклатура</th>
-            <th>Ссылка</th>
-        </tr>
-        <tr>
-            <td>01.09.2021</td>
-            <td>Заявка №002</td>  
-            <td>Комикс Супермен против бетмена</td>   
-            <td><a href="">Открыть...</a></td>  
-        </tr>    
-        <tr>
-            <td>01.09.2021</td>
-            <td>Заявка №003</td>  
-            <td>Геймпад PS4</td>   
-            <td><a href="">Открыть...</a></td>  
-        </tr>   
-        <tr>
-            <td>01.09.2021</td>
-            <td>Заявка №005</td>  
-            <td>Журнал Мир фантастики 154</td>   
-            <td><a href="">Открыть...</a></td>  
-        </tr>      
-         
-    </table>
-    <a href=""> Остальные ...</a>
-
-    <h2>Одобренные заявки (7):</h2>
-    <table border="1"> 
-        <tr>
-            <th>Дата</th>
-            <th>Номер заявки</th>
-            <th>Номенклатура</th>
-            <th>Ссылка</th>
-        </tr>
-        <tr>
-            <td>01.09.2021</td>
-            <td>Заявка №002</td>  
-            <td>Комикс Супермен против бетмена</td>   
-            <td><a href="">Открыть...</a></td>  
-        </tr>    
-        <tr>
-            <td>01.09.2021</td>
-            <td>Заявка №003</td>  
-            <td>Геймпад PS4</td>   
-            <td><a href="">Открыть...</a></td>  
-        </tr>   
-        <tr>
-            <td>01.09.2021</td>
-            <td>Заявка №005</td>  
-            <td>Журнал Мир фантастики 154</td>   
-            <td><a href="">Открыть...</a></td>  
-        </tr>      
-         
-    </table>
-    <a href=""> Остальные ...</a>
-
-    <h2>Архивные заявки (45):</h2>
-    <table border="1"> 
-        <tr>
-            <th>Дата</th>
-            <th>Номер заявки</th>
-            <th>Номенклатура</th>
-            <th>Ссылка</th>
-        </tr>
-        <tr>
-            <td>01.09.2021</td>
-            <td>Заявка №002</td>  
-            <td>Комикс Супермен против бетмена</td>   
-            <td><a href="">Открыть...</a></td>  
-        </tr>    
-        <tr>
-            <td>01.09.2021</td>
-            <td>Заявка №003</td>  
-            <td>Геймпад PS4</td>   
-            <td><a href="">Открыть...</a></td>  
-        </tr>   
-        <tr>
-            <td>01.09.2021</td>
-            <td>Заявка №005</td>  
-            <td>Журнал Мир фантастики 154</td>   
-            <td><a href="">Открыть...</a></td>  
-        </tr>      
-         
-    </table>
-    <a href=""> Остальные ...</a>
+        <h2>Архивные заявки (45):</h2>
+        <table border="1"> 
+            <tr>
+                <th>Дата</th>
+                <th>Номер заявки</th>
+                <th>Номенклатура</th>
+                <th>Ссылка</th>
+            </tr>
+            <tr>
+                <td>01.09.2021</td>
+                <td>Заявка №002</td>  
+                <td>Комикс Супермен против бетмена</td>   
+                <td><a href="">Открыть...</a></td>  
+            </tr>    
+            <tr>
+                <td>01.09.2021</td>
+                <td>Заявка №003</td>  
+                <td>Геймпад PS4</td>   
+                <td><a href="">Открыть...</a></td>  
+            </tr>   
+            <tr>
+                <td>01.09.2021</td>
+                <td>Заявка №005</td>  
+                <td>Журнал Мир фантастики 154</td>   
+                <td><a href="">Открыть...</a></td>  
+            </tr>      
+            
+        </table>
+        <a href=""> Остальные ...</a>
 
 
     
-
+    </div>
 </body>
 
 
