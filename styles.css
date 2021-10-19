@@ -97,3 +97,17 @@ table {
   th, td {
     border: 1px solid grey;
  }
+
+ .select_filter {
+    display: flex;
+    box-sizing: border-box;
+ } 
+
+ .select_filter > div {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-right: 5px;
+    width: 20%;
+    text-align: center;
+ }
+
